@@ -17,6 +17,14 @@ int main()
 	survivors = adventurers - killed;
 	cout << "Enter your last name: ";
 	cin >> leader;
+	cout << "\nA brave group of " << adventurers << " set out on a quest ";
+	cout << " -- in search of the lost treasure of the Ancient Dwareves. ";
+	cout << "The group was led by that legendary rogue, " << leader << " .\n";
+	cout << "\nAlong the way, a band of marauding ogres ambushed the party. ";
+	cout << "All fougth bravely under the command of " << leader;
+	cout << ", and the ogres were defeated, but at a cost. ";
+	cout << "Of the adventures. " << killed << " were vanquished. ";
+	cout << " leaving just " << survivors << " in the group.\n";
 	return 0;
 
 }
